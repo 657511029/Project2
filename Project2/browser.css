@@ -1,0 +1,186 @@
+#w{background-color: black;height: 27px;}
+nav ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;}
+nav li{float: left;}
+div nav ul li a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+div nav ul div a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:3px 0px;
+    text-decoration:none;
+}
+div nav ul div div p a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+#account3{
+     right: 0;
+     display: inline;
+     float: right;
+     background-color:black;
+     color:white;
+     width:80px;
+     text-align:center;
+     text-decoration:none;
+     margin: 0;padding: 0;
+ }
+#account2{
+    right: 0;
+    display: inline;
+    float: right;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+    z-index: 999;
+}
+#account{
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+
+nav a:hover,nav a:active{background-color:gray;}
+#browser{background-color:gray;}
+#account1{
+    position: absolute;
+    background-color: black;
+    z-index: 999;
+    display: none;
+}
+#account2:hover #account{background-color:gray;}
+#account2:hover #account1{display: block;}
+section{
+    margin: 20px;
+}
+#title,#title2,#title3,#title4{
+    background-color:whitesmoke;
+    height: 30px;
+    width:250px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+.search{
+    background-color:white;
+    height: 30px;
+    width:200px;
+    border-bottom-left-radius: 5px;
+}
+.q{
+    background-color:whitesmoke;
+   display: inline-block;
+    height: 30px;
+    width:56px;
+    padding-top: 6px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    border:solid gainsboro 0.1px;
+}
+.country{
+    background-color:white;
+    height: 30px;
+    width:250px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+.bottom{
+    background-color:white;
+    height: 30px;
+    width:250px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#aside{
+    float: left;
+    width: 300px;
+}
+#filer{
+    width: 800px;
+    display: inline-block;
+}
+
+#title5{
+    background-color:whitesmoke;
+    height: 30px;
+    width:1000px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+#section{
+    width: 980px;
+    height: 60px;
+    padding: 15px;
+    border:solid gainsboro 0.1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.select{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+#xuan{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    padding: 7px;
+    text-align: center;
+    border:solid black 0.1px;
+    margin: 10px;
+}
+#display{
+    width: 980px;
+    padding: 15px;
+    border:solid gainsboro 0.1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.picture{
+    display: inline-block;
+    margin: 10px;
+}
+#yema{
+    width: 980px;
+    text-align: center;
+    color: deepskyblue;
+}

@@ -1,0 +1,183 @@
+#w{background-color: black;height: 27px;}
+nav ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;}
+nav li{float: left;}
+div nav ul li a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+iv nav ul div a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:3px 0px;
+    text-decoration:none;
+}
+div nav ul div div p a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+#account3{
+    right: 0;
+    display: inline;
+    float: right;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    text-decoration:none;
+    margin: 0;padding: 0;
+}
+#account2{
+    right: 0;
+    display: inline;
+    float: right;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+    z-index: 999;
+}
+#account{
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+
+nav a:hover,nav a:active{background-color:gray;}
+#account1{
+    position: absolute;
+    background-color: black;
+    z-index: 999;
+    display: none;
+}
+#account2:hover #account{background-color:gray;}
+#account2:hover #account1{display: block;}
+section{
+    left: 100px;
+    right: 100px;
+}
+#s{
+    margin: 40px;
+}
+#title1{
+    background-color:whitesmoke;
+    height: 30px;
+    width:1350px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+#detail{
+    background-color:white;
+    height: 800px;
+    width:1350px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+#title2{
+    text-align: center;
+}
+#title3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+#small{
+    font-weight: normal;
+}
+#des{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 100px;
+    margin-left: 100px;
+    width:1150px;
+    height: 430px;
+}
+#picture{
+    float: left;
+    width: 600px;
+}
+#information{
+    float: right;
+    width: 550px;
+
+}
+#title4,#title5{
+    background-color:whitesmoke;
+    height: 30px;
+    width:450px;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+#number{
+    background-color:white;
+    height: 50px;
+    width:450px;
+    font-size: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+    text-align: center;
+    font-size: 40px;
+    color: crimson;
+    font-weight: bold;
+}
+.imagedetails{
+    background-color:white;
+    height: 30px;
+    width:450px;
+    font-size: 20px;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+    font-weight: normal;
+}
+#imagedetail1{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sd{
+    margin: 15px;
+}
+#shoucang{
+    background-color:crimson;
+    border:solid crimson 0.1px;
+    height: 36px;
+    width:450px;
+    font-size: 18px;
+    padding: 9px;
+   border-radius: 5px;
+    font-weight: normal;
+    color: white;
+}
+#wenzi{
+    margin-right: 100px;
+    margin-left: 100px;
+    width:1150px;
+    height: 150px;
+}

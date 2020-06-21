@@ -1,0 +1,52 @@
+#img{
+    position: absolute;
+    left: 50%;
+    padding-top: 200px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#denglu{
+    position: absolute;
+    left: 50%;
+    padding-top: 760px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#sginin{
+    padding-left: 120px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: black;
+}
+#submit{
+    background-color: forestgreen;
+    font-weight: bolder;
+    color: white;
+}
+#biaodan{
+    border: 30px whitesmoke solid;
+    border-radius: 10px;
+}
+p{
+    font-weight: bolder;
+}
+#mo{
+    padding-left: 60px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+footer{position:fixed; bottom:0;}

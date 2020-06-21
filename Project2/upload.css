@@ -1,0 +1,154 @@
+#w{background-color: black;height: 27px;}
+nav ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;}
+nav li{float: left;}
+div nav ul li a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+div nav ul div a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:3px 0px;
+    text-decoration:none;
+}
+div nav ul div div p a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+#account3{
+    right: 0;
+    display: inline;
+    float: right;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    text-decoration:none;
+    margin: 0;padding: 0;
+}
+#account2{
+    right: 0;
+    display: inline;
+    float: right;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+    z-index: 999;
+}
+#account{
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+
+a:hover,a:active{background-color:gray;}
+#account1{
+    position: absolute;
+    background-color: black;
+    z-index: 999;
+    display: none;
+}
+#account2:hover #account{background-color:gray;}
+#account2:hover #account1{display: block;}
+section{
+    left: 100px;
+    right:100px;
+}
+#s{
+    margin: 20px;
+}
+#title1{
+    background-color:whitesmoke;
+    height: 30px;
+    width:1350px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+#r{
+    background-color:white;
+    height: 980px;
+    width:1350px;
+    font-size: 20px;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+#url{
+    font-size: 15px;
+}
+#shuangchuang{
+    text-align: center;
+    margin: 30px;
+}
+
+
+.up2{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 120px;
+    height: 36px;
+    padding: 9px;
+    text-align: center;
+    border:solid black 0.1px;
+}
+#form{
+    margin: 40px;
+}
+.title2{
+
+}
+#tupianbiaoti,#paishechengshi,#paisheguojia{
+    width: 1200px;
+    height: 30px;
+    border-radius: 5px;
+    border:solid black 0.1px;
+    font-size: 16px;
+}
+#tupianmiaoshu{
+    width: 1200px;
+    height: 100px;
+    border-radius: 5px;
+    border:solid black 0.1px;
+    font-size: 16px;
+}
+#submit{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 80px;
+    height: 36px;
+    padding: 9px;
+    text-align: center;
+    border:solid black 0.1px;
+}
+.select{
+     font-size: 15px;
+     font-weight: bold;
+     border-radius: 5px;
+     width: 200px;
+     padding: 5px;
+     margin: 10px;
+ }

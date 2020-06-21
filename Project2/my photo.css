@@ -1,0 +1,123 @@
+#w{background-color: black;height: 27px;}
+nav ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;}
+nav li{float: left;}
+div nav ul li a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+div nav ul div a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:3px 0px;
+    text-decoration:none;
+}
+div nav ul div div p a{
+    display:block;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+#account3{
+    right: 0;
+    display: inline;
+    float: right;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    text-decoration:none;
+    margin: 0;padding: 0;
+}
+#account2{
+    right: 0;
+    display: inline;
+    float: right;
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+    z-index: 999;
+}
+#account{
+    background-color:black;
+    color:white;
+    width:80px;
+    text-align:center;
+    padding:4px 0px;
+    text-decoration:none;
+}
+
+nav a:hover,nav a:active{background-color:gray;}
+#account1{
+    position: absolute;
+    background-color: black;
+    z-index: 999;
+    display: none;
+}
+#account2:hover #account{background-color:gray;}
+#account2:hover #account1{display: block;}
+section{
+    left: 100px;
+    right: 100px;
+}
+#myphoto1{
+    margin: 20px;
+}
+#title2{
+    background-color:whitesmoke;
+    height: 30px;
+    width:1350px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+.result{
+    background-color:white;
+    height: 240px;
+    width:1350px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border:solid gainsboro 0.1px;
+}
+.description{
+    float: right;
+    width : 1100px;
+    height: 160px;
+}
+.button{
+    float: right;
+    width: 1100px;
+}
+.s1,.s2{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border:solid black 0.1px;
+}
+.s1{
+    color: darkslateblue;
+}
+.s2{
+    color: crimson;
+}
